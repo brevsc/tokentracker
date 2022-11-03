@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Breno's first challenge to create a web-page that uses an API to track some crypto prices in real time. For this project, it was used CoinGecko API.">
+  <title>Token Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <img src="./assets/icons/TT.png" width="32" height="32" alt="coin logo">
+    <strong class="header-text">Token Tracker </strong>
+  </header>
+  <main>
+    <!-- new version -->
+    <div class="test">
+      <div class="card">
+        <ul>
+          <li>
+            <img class="logo" src="./assets/icons/btc@2x.png" width="64" height="64" alt="bitcoin">
+            <strong class="token">BITCOIN <p class="price">1BTC = $<span id="btc-price"></span></p></strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <ul>
+          <li>
+            <img class="logo" src="./assets/icons/eth@2x.png" width="64" height="64" alt="ethereum">
+            <strong class="token">ETHEREUM <p class="price">1ETH = $<span id="eth-price"></span></p></strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <ul>
+          <li>
+            <img class="logo" src="./assets/icons/usdt@2x.png" width="64" height="64" alt="tether">
+            <strong class="token">TETHER <p class="price">1USDT = $<span id="usdt-price"></span></p></strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <ul>
+          <li>
+            <img class="logo" src="./assets/icons/bnb@2x.png" width="64" height="64" alt="binance coin">
+            <strong class="token">BINANCE COIN <p class="price">1BNB = $<span id="bnb-price"></span></p></strong>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <ul>
+          <li>
+            <img class="logo" src="./assets/icons/doge@2x.png" width="64" height="64" alt="dogecoin">
+            <strong class="token">DOGECOIN <p class="price">1DOGE = $<span id="doge-price"></span></p></strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- old version -->
+
+    <!-- <div class="coin">
+      <div class="logo"><img src="./assets/icons/btc@2x.png" alt="bitcoin"></div>
+      <p class="token">BITCOIN</p>
+      <p>1BTC = $<span id="btc-price"></span></p>
+    </div>
+
+    <div class="coin">
+      <div class="logo"><img src="./assets/icons/eth@2x.png" alt="ethereum"></div>
+      <p class="token">ETHEREUM </p>
+      <p>1ETH = $<span id="eth-price"></span></p>
+    </div>
+
+    <div class="coin">
+      <div class="logo"><img src="./assets/icons/usdt@2x.png" alt="Tether"></div>
+      <p class="token">TETHER</p>
+      <p>1USDT = $<span id="usdt-price"></span></p>
+    </div>
+
+    <div class="coin">
+      <div class="logo"><img src="./assets/icons/bnb@2x.png" alt="Binance Coin"></div>
+      <p class="token">BINANCE COIN </p>
+      <p>1BNB = $<span id="bnb-price"></span></p>
+    </div>
+
+    <div class="coin">
+      <div class="logo"><img src="./assets/icons/doge@2x.png" alt="Dogecoin"></div>
+      <p class="token">DOGECOIN </p>
+      <p>1DOGE = $<span id="doge-price"></span></p>
+    </div> -->
+  </main>
+  <footer>
+
+    <div class="imagerights">
+      <a class="imagerights" href="https://www.flaticon.com/free-icons/crypto" title="crypto icons">Icon used in logo created by Freepik - Flaticon</a>
+      <a class="imagerights" href="https://www.flaticon.com/free-icons/target" title="target icons">Target icons created by Freepik - Flaticon</a>
+      <a class="imagerights" href="https://www.freepik.com/free-vector/3d-earth-graphic-symbolizing-global-trade-illustration_14803715.htm#query=stock%20market&position=1&from_view=search&track=sph">Image by liuzishan on Freepik</a>
+      <a class="imagerights" href="http://cryptoicons.co/">Icons by cryptoicons.co</a>
+    </div>
+
+    <h3 class="me"> © 2022 Breno Vasconcelos</h3>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
