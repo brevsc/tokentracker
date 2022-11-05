@@ -116,19 +116,19 @@ main div {
   animation: cardsBottom 0.7s backwards;
 }
 main div:nth-child(1) {
-  animation-delay: 0.3s;
+  animation-delay: 0.2s;
 }
 main div:nth-child(2) {
-  animation-delay: 0.6s;
+  animation-delay: 0.4s;
 }
 main div:nth-child(3) {
-  animation-delay: 0.9s;
+  animation-delay: 0.6s;
 }
 main div:nth-child(4) {
-  animation-delay: 1.2s;
+  animation-delay: 0.8s;
 }
 main div:nth-child(5) {
-  animation-delay: 1.5s;
+  animation-delay: 1s;
 }
 @keyframes cardsBottom {
   from {
@@ -142,7 +142,7 @@ main div:nth-child(5) {
 }
 
 body header {
-  animation: headerTop 0.7s 0.3s backwards;
+  animation: headerTop 0.5s 0.3s backwards;
 }
 @keyframes headerTop {
   from {
@@ -187,7 +187,7 @@ body header {
   }
 
   footer {
-    animation: footerBottom 0.7s 0.3s backwards;
+    animation: footerBottom 0.5s 0.3s backwards;
   }
   @keyframes footerBottom {
     from {
