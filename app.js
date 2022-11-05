@@ -4,6 +4,10 @@ var usdt = document.getElementById("usdt-price");
 var bnb = document.getElementById("bnb-price");
 var doge = document.getElementById("doge-price");
 
+function refreshPage() {
+  window.location.reload();
+}
+
 var liveprice = {
   async: true,
   scroosDomain: true,
