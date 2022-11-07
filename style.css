@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: rgb(43, 1, 66);
-  background-image: url(./assets/background/bg_2.webp);
+  background-color: rgb(43, 1, 66, 0.9);
+  background-image: url(./assets/background/bg_m.webp);
   background-position-x: center;
   background-repeat: no-repeat;
   background-position-y: top;
@@ -74,7 +74,7 @@ footer {
   margin-bottom: 53px;
 }
 .card {
-  background: rgba(30, 29, 29, 0.7);
+  background: rgba(30, 29, 29, 0.6);
   border-radius: 8px;
   margin-top: 50px;
   padding-top: 15px;
@@ -141,6 +141,20 @@ main div:nth-child(5) {
   }
 }
 
+footer {
+  animation: footerBottom 0.5s 0.3s backwards;
+}
+@keyframes footerBottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 body header {
   animation: headerTop 0.5s 0.3s backwards;
 }
@@ -163,6 +177,7 @@ body header {
     min-height: 100%;
   }
   body {
+    background-image: url(./assets/background/bg_2.webp);
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -186,17 +201,4 @@ body header {
     transform: scale(1.1);
   }
 
-  footer {
-    animation: footerBottom 0.5s 0.3s backwards;
-  }
-  @keyframes footerBottom {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0px);
-    }
-  }
 }
