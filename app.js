@@ -9,9 +9,9 @@ fetch(
 )
   .then((response) => response.json())
   .then(function (response) {
-    btc.innerHTML = response.bitcoin.usd;
-    eth.innerHTML = response.ethereum.usd;
-    usdt.innerHTML = response.tether.usd;
-    bnb.innerHTML = response.binancecoin.usd;
-    doge.innerHTML = response.dogecoin.usd;
+    btc.textContent = response.bitcoin.usd;
+    eth.textContent = response.ethereum.usd;
+    usdt.textContent = response.tether.usd;
+    bnb.textContent = response.binancecoin.usd;
+    doge.textContent = response.dogecoin.usd;
   });
