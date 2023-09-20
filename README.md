@@ -1,6 +1,6 @@
 # TOKEN TRACKER
 
-![preview](./.github/preview.jpeg)
+![preview](./.github/preview.png)
 
 Projeto desenvolvido com o objetivo de usar uma API para receber valores de algumas criptomoedas em tempo real. Para o projeto, foi utilizada a API da CoinGecko.
 
