@@ -15,4 +15,4 @@ Projeto desenvolvido com o objetivo de usar uma API para receber valores de algu
 
 ## 📱 Contato
 
-theyukidjr@gmail.com
+brevscn@gmail.com
